@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <title>Example Portfolio Website</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="index_files/style.css">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+      </style>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul>
+               <li><a href="#home">HOME</a></li>
+               <li><a href="#about">ABOUT</a></li>
+               <li><a href="#contact">CONTACT</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main id="home">
+         <div class="wrapper">
+            <h1>Welcome to my Website</h1>
+            <p>check out my portfolio, skills, and contact information</p>
+            <div class="buttonwrapper">
+               <button onClick="document.getElementById('projects').scrollIntoView()">My Coding Portfolio</button>
+               <button onClick="document.getElementById('skills').scrollIntoView()">Skills</button>
+               <button onClick="document.getElementById('contact').scrollIntoView()">Contact</button>
+            </div>
+         </div>
+      </main>
+      <div class="scrollimage">
+         <section class="skills" id="skills">
+            <div class="wrapper">
+               <div class="skillswrapper1">
+                  <h1>i have experience with the following programming languages and technologies</h1>
+                  <div>
+                     <ul class="icon">
+                        <li class="subcolor1">Kotlin</li>
+                        <li class="subcolor2">Java</li>
+                        <li class="subcolor3">JavaScript</li>
+                        <li class="subcolor4">HTML/CSS</li>
+                        <li class="subcolor5">GIT</li>
+                        <li class="subcolor6">GitHub</li>
+                        <li class="subcolor7">Android</li>
+                        <li class="subcolor8">Docker</li>
+                        <li class="subcolor9">SQL</li>
+                        <li class="subcolor10">Python</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="skillswrapper2">
+                  <h1>i am also proficient with the following software</h1>
+                  <div>
+                     <ul class="icon">
+                        <li class="subcolor10">Visual Studio Code</li>
+                        <li class="subcolor9">JetBrains</li>
+                        <li class="subcolor8">Intellji</li>
+                        <li class="subcolor7">Clion</li>
+                        <li class="subcolor6">Android Studio</li>
+                        <li class="subcolor5">Adobe Suite</li>
+                        <li class="subcolor4">Photoshop</li>
+                        <li class="subcolor3">Illustrator</li>
+                        <li class="subcolor2">Xd</li>
+                        <li class="subcolor1">Premiere</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="projects">
+            <div class="title">
+               <h1>Projects</h1>
+               <hr>
+            </div>
+            <div class="projectslist">
+               <ul>
+                  <li>
+                     <p>Java</p>
+                     <a href="https://github.com/coffmancorrim/Simple-Calculator" target="_blank" id="linkButton5">Simple Calculator</a>
+                  </li>
+                  <li>
+                     <p>Javascript</p>
+                     <a href="https://github.com/coffmancorrim/Sales-Tax-and-Change-Calculators" target="_blank" id="linkButton6">Tax&amp;Change Calculator</a>
+                  </li>
+                  <li>
+                     <p>Android</p>
+                     <a href="https://github.com/coffmancorrim/My_Application_CSC415" target="_blank" id="linkButton7">Animal Fact App</a>
+                  </li>
+                  <li>
+                     <p>SQL</p>
+                     <a href="https://github.com/coffmancorrim/DDL-and-Advanced-SQL-Queries" target="_blank" id="linkButton8">SQL Queries</a>
+                  </li>
+                  <li>
+                     <p>C</p>
+                     <a href="https://github.com/coffmancorrim/The-Race" target="_blank" id="linkButton9">The Race</a>
+                  </li>
+                  <li>
+                     <p>C++</p>
+                     <a href="https://github.com/coffmancorrim/Hospital-Administration-Console-App" target="_blank" id="linkButton10">Hospital Admin Console</a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="about" id="about">
+            <div class="wrapper">
+               <h1 style="margin-bottom: 0px;">About Me</h1>
+               <p>Hello! My name is Corrim Coffman and I am an aspiring developer from Ohio. I graduated from Northern Kentucky University with a major in Computer Science, and a minor in Media Informatics (digital graphic design).            </div>
+         </section>
+      </div>
+      <footer class="contact" id="contact">
+         <div>
+            <h1>Get In Touch</h1>
+         </div>
+         <div class="linkContainer">
+            <div>
+               <a href="https://www.linkedin.com/in/corrim-coffman-1a346824a/" target="_blank" id="linkButton2">LinkedIn</a>
+               <a href="file:///C:/Users/software%20engineer/Desktop/website/resume.docx" download="resume.docx" id="linkButton4">Resume</a>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

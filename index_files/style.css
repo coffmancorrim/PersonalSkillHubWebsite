@@ -1,0 +1,276 @@
+.subcolor1 {
+    background-color: #9990FF;
+}
+.subcolor2 {
+    background-color: #FF9090;
+}
+.subcolor3 {
+    background-color: #FFD390;
+}
+.subcolor4 {
+    background-color: #F6FF90;
+}
+.subcolor5 {
+    background-color: #B4FF90;
+}
+.subcolor6 {
+    background-color: #90FFFF;
+}
+.subcolor7 {
+    background-color: #90D7FF;
+}
+.subcolor8 {
+    background-color: #E990FF;
+}
+.subcolor9 {
+    background-color: #FF9090;
+}
+.subcolor10 {
+    background-color: #FF90D3;
+}
+
+.subcolor11{
+    background-color:  #FFB9B9;
+}
+
+main,section {
+    height: 100vh;
+}
+
+main, .skills, .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,p,li,button,a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: aliceblue;
+}
+
+.projectslist a {
+/*    display: block;*/
+    padding: 15px;
+/*    width: 400px;*/
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+nav {
+    background-color: white;
+    border-radius: 50px;
+}
+
+nav li{
+    padding: 15px;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+main h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 30px;
+}
+
+.buttonwrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#projects {
+    background: url("bubblebackgraund.jpg");
+    background-size: cover;
+}
+
+.projectslist {
+    width: 400px;
+    margin-left: 25px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 9px;
+    background-color: white;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+}
+
+.projectslist li {
+    padding-bottom: 15px;
+    display: block;
+}
+
+.skillswrapper1 .icon {
+    border-radius: 9px;
+}
+
+.skillswrapper1{
+    padding: 25px;
+    border-radius: 9px;
+    background-color: aliceblue;
+}
+
+.skillswrapper2 {
+    text-align: right;
+    padding: 25px;
+    border-radius: 9px;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+header {
+    text-align: right;
+    position: fixed;
+    right: 30px;
+}
+
+.icon li {
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+.title h1, .contact h1 {
+    margin: 0px;
+}
+
+hr {
+    width: 350px;
+    height: 7px;
+    background-color: black;
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+}
+
+.title {
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.contact{
+    padding: 35px;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.about .wrapper {
+    background-color: white;
+    border-radius: 15px;
+    padding: 70px 30px 70px 30px;
+}
+
+.about p {
+    width: 640px;
+}
+
+.scrollimage{
+    background-image: url('bubblebackground.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #8c9eff;
+    color: white;
+}
+
+.contact img {
+    width: 60px;
+}
+.iconflex {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 0px;
+}
+.iconflex li {
+    margin: 0px 5px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.linkContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.linkContainer a {
+    display: block;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: aliceblue;
+}
+
+#linkButton1:hover {
+    background-color: #F6FF90;
+}
+#linkButton2:hover {
+    background-color: #B4FF90;
+}
+#linkButton3:hover {
+    background-color: #90FFFF;
+}
+#linkButton4:hover {
+    background-color: #90D7FF;
+}
+
+
+#linkButton5:hover {
+    background-color: #FFD390;
+}
+#linkButton6:hover {
+    
+    background-color: #F6FF90;
+}
+#linkButton7:hover {
+    background-color: #FF90D3;
+}
+#linkButton8:hover {
+    background-color: #E990FF;
+    
+}
+
+#linkButton9:hover {
+    background-color: #FF9090;
+}
+
+#linkButton10:hover {
+    background-color: #9990FF;
+}
